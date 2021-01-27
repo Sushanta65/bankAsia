@@ -1,0 +1,31 @@
+.login-form-area{
+    margin:50px;
+}
+.submit-area{
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px gray;
+}
+.status{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+}
+.diposite{
+    background:#5f4fc8;
+}
+.withdrow{
+    background:#f19671;
+}
+.balance{
+    background:#f09b02;
+}
+.amount{
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px gray;
+    margin: 15px;
+    padding: 10px;
+}
+.bank-info{
+    display:none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Asia</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="login-form-area" class="login-form-area">
+        <div class="container">
+            <div class="row">
+                <div class="con-12">
+                    <h2 class="text-center">Welcome To Bank Asia</h2>
+                    <div class="submit-area m-5 p-4">
+                        <h3>Login</h3>
+                        <input class="form-control mt-4" type="text" name="email" placeholder="Email">
+                        <input class="form-control mt-3" type="password" name="password" placeholder="Password">
+                        <button id="login-btn" class="btn btn-success mt-3 text-light">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bank-info m-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="diposite status">
+                        <h5>Diposite</h5>
+                        <h2>$ <span id="diposite-amount">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdrow status">
+                        <h5>Withdrow</h5>
+                        <h2>$ <span id="withdrow-amount">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance status">
+                        <h5>Balance</h5>
+                        <h2>$ <span id="balance-amount">1200</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-6">
+                    <div class="amount">
+                        <h4 class="pb-2 pt-1">Diposite</h4>
+                        <input id="addDiposite" class="form-control mb-3" type="text" placeholder="$ amount you want to diposite">
+                        <button id="makeDiposite" class="btn btn-success">Diposite</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="amount">
+                        <h4 class="pb-2 pt-1">Withdrow</h4>
+                        <input id="withdrowValue" class="form-control mb-3" type="text" placeholder="$ amount you want to diposite">
+                        <button id="addWithdrow" class="btn btn-success">Withdrow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="custom.js"></script>
+</body>
+</html>
